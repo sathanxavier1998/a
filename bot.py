@@ -5,12 +5,12 @@ from pyrogram import Client, filters, idle
 API_ID = int(environ.get("API_ID", "6620972"))
 API_HASH = environ.get("API_HASH", "3f6835286b03e000ab6d71b37cc35b92")
 BOT_TOKEN = environ.get("BOT_TOKEN", "5557012576:AAFzIKDUqFbtuaVF5O64ebSo1X4iNLZT97Y")
-SESSION = environ.get("SESSION", "BQHIlWYAHV6c2KPKuP8QlalgdncIcCYP9nFdhD8ZuIgGWPcEbSHpYlvu41PaWj2xaUljcvrusnzNthCxX0IcvMG0ZpynSwROD2cKybk0h99pcQdTCRarNYMPeYkUYcC_zaNRVdSS_WiTOV4ayeIU2RvNDKfhWeVYKF_1CQPAO40YE00otz_Z_aTPWZuMfWZhpvz8jn6Mj8oigb49sRwhTSzKo23cJ49CyirjnWi-sSo5NMg4vPtKBnbW5rrCi-JRf-Iuz3yIyMn1LIC1MCVlcDD5_A7JkTuh7HwCuzHL04SEh5DknVx4t9q_tmvZNck3ale1hQNUyQpy6zedsnsBjK_hbOYPYQAAAAFodbDbAA")
+SESSION = environ.get("SESSION", "BQHIlWYAvFg2nM-bese1DtnUHo4_2WP6vre4GO98bbNZIG7rxpNfAh2ropIXwDVNXL_x0-Sxh9-IYqHoNmDqLsdJL92OcgeFeoPeIO4viMFI0UyHnCViNfRIoLWQc6-77SE02CPEo1GQKgdAxqOmxgwhdde9sYYLKeLoVbslBKODSSW-jVCrVQV2Y5e86qUg_wem7I9DARhKvYRZe0-DLoBGwYXcmCHUH08f-DCU8zsdU9p3lyU5VdRyIoYM0syTNAiNKphzrrPd8NyucaaXMLbzt0bwgP-BlvFHeFMSxHOVBOE-k9DeKSc5aQ97pejKgoaW5LY7ocKmSO6egS1RUEOpD0qn1QAAAAFodbDbAA")
 TIME = int(environ.get("TIME", "3000"))
 GROUPS = []
 for grp in environ.get("GROUPS", "-1001570401050").split():
     GROUPS.append(int(grp))
-ADMINS = [1745047302 6047510747]
+ADMINS = []
 for usr in environ.get("ADMINS", "1745047302" "6047510747").split():
     ADMINS.append(int(usr))
 
